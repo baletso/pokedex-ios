@@ -28,6 +28,7 @@
 		805B1B962E2D31C600F0F639 /* pokedex-iosTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "pokedex-iosTests.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
 		805B1BA02E2D31C600F0F639 /* pokedex-iosUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "pokedex-iosUITests.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
 		805B1BB52E2D376A00F0F639 /* Pokemon.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Pokemon.swift; sourceTree = "<group>"; };
+		805B1BB72E2D383000F0F639 /* PokemonService.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PokemonService.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFileSystemSynchronizedRootGroup section */
@@ -76,6 +77,7 @@
 		805B1B802E2D31C400F0F639 = {
 			isa = PBXGroup;
 			children = (
+				805B1BB62E2D381F00F0F639 /* Networking */,
 				805B1BB42E2D373D00F0F639 /* Models */,
 				805B1B8B2E2D31C400F0F639 /* pokedex-ios */,
 				805B1B992E2D31C600F0F639 /* pokedex-iosTests */,
@@ -100,6 +102,14 @@
 				805B1BB52E2D376A00F0F639 /* Pokemon.swift */,
 			);
 			path = Models;
+			sourceTree = "<group>";
+		};
+		805B1BB62E2D381F00F0F639 /* Networking */ = {
+			isa = PBXGroup;
+			children = (
+				805B1BB72E2D383000F0F639 /* PokemonService.swift */,
+			);
+			path = Networking;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
